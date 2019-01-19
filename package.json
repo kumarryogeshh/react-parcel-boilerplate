@@ -1,0 +1,36 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS using Parcel web application bundler",
+  "main": "src/electron.js",
+  "scripts": {
+    "react-start": "parcel -p 3000 index.html --out-dir build",
+    "react-build": "parcel build index.html --out-dir build --public-url ./",
+    "clean-build": "rm -rf build/ .cache dist/",
+    "build": "yarn clean-build && yarn react-build",
+    "start": "yarn react-start"
+  },
+  "keywords": [
+    "boskysoft",
+    "react",
+    "parcel",
+    "react-parcel",
+    "react parcel"
+  ],
+  "author": "Yogesh Kumar <yogesh@boskysoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "semantic-ui-css": "latest"
+  },
+  "homepage": "http://boskysoft.com/",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-plugin-transform-react-jsx": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "parcel-bundler": "latest"
+  }
+}
