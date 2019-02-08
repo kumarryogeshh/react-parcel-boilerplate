@@ -1,12 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="ui secondary menu">
-      <div className="header item">Our Company</div>
-      <a className="right item">Products</a>
-      <a className="item">Locations</a>
-      <a className="item">About Us</a>
+      <NavLink className="header item" to="/">
+        Our Company
+      </NavLink>
+      <NavLink className="right item" to="/products">
+        Products
+      </NavLink>
+      <NavLink className="item" to="/locations">
+        Locations
+      </NavLink>
+      <NavLink className="item" to="/about">
+        About Us
+      </NavLink>
     </div>
   );
 };

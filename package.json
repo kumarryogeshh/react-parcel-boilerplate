@@ -2,7 +2,7 @@
   "name": "react-parcel",
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS using Parcel web application bundler",
-  "main": "src/electron.js",
+  "main": "src/index.js",
   "scripts": {
     "react-start": "parcel -p 3000 index.html --out-dir build",
     "react-build": "parcel build index.html --out-dir build --public-url ./",
@@ -22,6 +22,7 @@
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "semantic-ui-css": "latest"
   },
   "homepage": "http://boskysoft.com/",

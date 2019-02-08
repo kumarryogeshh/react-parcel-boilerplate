@@ -1,6 +1,6 @@
 import React from "react";
 
-const Custom = () => {
+const Home = () => {
   return (
     <div className="ui container">
       <h3>
@@ -21,4 +21,4 @@ const Custom = () => {
   );
 };
 
-export default Custom;
+export default Home;
