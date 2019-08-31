@@ -28,10 +28,23 @@
   "homepage": "http://boskysoft.com/",
   "devDependencies": {
     "babel-core": "latest",
+    "babel-plugin-transform-class-properties": "latest",
     "babel-plugin-transform-object-rest-spread": "latest",
     "babel-plugin-transform-react-jsx": "latest",
     "babel-preset-env": "latest",
     "babel-preset-react": "latest",
     "parcel-bundler": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
