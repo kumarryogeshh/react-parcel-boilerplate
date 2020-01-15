@@ -33,7 +33,7 @@
     "babel-plugin-transform-react-jsx": "latest",
     "babel-preset-env": "latest",
     "babel-preset-react": "latest",
-    "parcel-bundler": "latest"
+    "parcel-bundler": "^1.12.4"
   },
   "browserslist": {
     "production": [
